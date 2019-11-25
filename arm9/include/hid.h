@@ -18,6 +18,9 @@
 #define BUTTON_L      (1<<9)
 #define BUTTON_X      (1<<10)
 #define BUTTON_Y      (1<<11)
+#define BUTTON_ZL     (1<<12)
+#define BUTTON_ZR     (1<<13)
+#define BUTTON_HOME   (1<<14)
 
 #define BUTTON_HELD(b, m) (~(b) & (m))
 #define BUTTON_PRESSED(b, o, m) ((~(b) & (o)) & (m))

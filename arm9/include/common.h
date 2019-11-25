@@ -39,7 +39,7 @@
 #define BUFFER_MAX_SIZE ((u32) (1 * 1024 * 1024))
 
 // log file name
-#define LOG_FILE "firm_linux_loader.log"
+#define LOG_FILE "citralinux_loader.log"
 
 static inline u32 strchrcount(const char* str, char symbol) {
     u32 count = 0;

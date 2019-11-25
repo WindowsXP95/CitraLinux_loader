@@ -9,7 +9,7 @@
 
 #define LINUXIMAGE_FILENAME  "/zImage"
 #define DTB_FILENAME         "/nintendo3ds_ctr.dtb"
-#define ARM9LINUXFW_FILENAME "/arm9linuxfw.bin"
+#define ARM9LINUXFW_FILENAME "/linux/arm9linuxfw.bin"
 
 #define FALLBACK_PATH        "/linux"
 

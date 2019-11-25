@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 	ClearScreenFull(true, true);
 	DebugClear();
 
-	Debug("-- FIRM Linux loader by xerpi --");
+	Debug("-- CitraLinux Loader v 1.0 (by: WindowsXP95");
 
 	if (InitFS()) {
 		Debug("Initializing SD card... success");
